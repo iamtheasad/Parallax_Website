@@ -1,0 +1,22 @@
+{
+  "name": "parallax_website",
+  "version": "1.0.0",
+  "description": "Prallax Website",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamtheasad/Parallax_Website.git"
+  },
+  "keywords": [
+    "parallax"
+  ],
+  "author": "Md. Asaduzzaman Rana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iamtheasad/Parallax_Website/issues"
+  },
+  "homepage": "https://github.com/iamtheasad/Parallax_Website#readme"
+}
