@@ -4,9 +4,8 @@
 }
 body{
     font-family: 'Princess Sofia', cursive;
-	background: url(images/bg.png); 
-    /* background-repeat: no-repeat; */ 
-     background-position: center; 
+	background: url(../images/bg.png); 
+    background-position: center; 
 	background-attachment: fixed; 
 }
 #first{
@@ -24,23 +23,19 @@ body{
 .logo{
 	max-width:30%;
 	float:left;
-	
 }
 .logo img{
 	width:70px;
 }
 .menu{
-	
 	max-width:70%;
 	float:right;
 	padding-top:23px;
 }
-.menu ul{}
 .menu ul li{
 	list-style:none;
 	padding:0px 10px;
 	float:left;
-	
 }
 .menu ul li a{
 	text-decoration:none;
@@ -55,10 +50,8 @@ body{
 	background:#cfe7b1;
 	color:#42b92d;
 }
-
-
 #second-section {
-    background: url(images/bg.png) no-repeat;
+    background: url(../images/bg.png) no-repeat;
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
@@ -77,10 +70,6 @@ body{
 .content p{
 	padding-top:30px;
 }
-
-#third-section{
-	
-}
 .section-top{
 	text-align:center;
 	padding:30px 0px;
@@ -97,9 +86,7 @@ body{
 .content-content{
 	max-width:25%;
 	float:left;
-	text-align:center;
-	
-	
+	text-align:center;	
 }
 .content-content h2{
 	padding:20px 0px;
@@ -111,7 +98,7 @@ body{
 }
 #fourth-section{
 	padding:200px 0px;
-	background:url(images/IMG_20151203_140322.jpg) no-repeat;
+	background:url(../images/bg2.jpg);
 	background-size:cover;
 	background-position:center;
 	background-attachment:fixed;
@@ -120,8 +107,6 @@ body{
     float: left;
     width: 25%;
     text-align: center;
-    
-    
     margin-bottom: 30px;
 }
 .fourth img{
@@ -157,8 +142,6 @@ body{
 	Css Code For about.html
 */
 
-
-
 #about-sec{
 	margin:50px 0px;
 }
@@ -178,15 +161,12 @@ body{
 .about-content-heading-description p{
 	font-size:20px;
 }
-
-
 input[type="text"] {
     padding: 10px;
     margin: 10px 5px;
     display: inherit;
     width: 333px;
 }
-
 input[type="email"] {
     padding: 10px;
     margin: 10px 5px;
@@ -211,10 +191,9 @@ input[type="email"] {
     background-color: #c8f0c1;
 	transition:1s;
 }
-
 section#contact-sec {
     padding-top: 20px;
-    background-image: url(images/background.jpg);
+    background-image: url(../images/background.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
@@ -225,27 +204,6 @@ section#contact-sec {
 input[type="text"]:focus, 
 input[type="email"]:focus, 
 .contact-message textarea:focus {
-   border:2px solid #31001c;
+    border:2px solid #31001c;
     background: #c8f0c1;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
