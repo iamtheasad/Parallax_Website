@@ -1,4 +1,62 @@
-@media screen and (max-width:890px){
+/********************************
+Home Page Responsive Start
+***********************************/
+@media screen and (max-width: 768px){
+	.content-content {
+	    max-width: 50%;
+	}
+	.fourth {
+	    width: 50%;
+	}
+}
+
+@media screen and (max-width: 576px){
+	.content-content {
+	    max-width: 100%;
+	}
+	.fourth {
+	    width: 100%;
+	}
+}
+
+@media screen and (max-width: 420px) {
+	.logo {
+	    max-width: 100%;
+	    float: unset;
+	    text-align: center;
+	}
+	.menu {
+	    max-width: 100%; 
+	    float: unset; 
+	    text-align: center;
+	}
+	.menu ul li {
+	     float: unset; 
+	     margin-bottom: 0px; 
+	}
+
+}
+
+/********************************
+About Page Responsive Start
+***********************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*@media screen and (max-width:890px){
 	.fourth {
     width: 50%;
     }
@@ -133,7 +191,7 @@ input[type="email"] {
 	.logo {
     float: none;
 	}
-}
+}*/
 
 
 
