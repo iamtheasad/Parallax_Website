@@ -154,67 +154,20 @@ body:after{
  about section start
 */
 
-#about-sec{
-	margin:50px 0px;
-}
-.about-content-heading{
-	margin: 40px 0px;
-}
-.about-content-heading-title h2{
-	text-align:center;
-	font-size: 30px;
-	text-transform:uppercase;
-	padding:10px 0px;
-}
-.about-content-heading-description p{
-	font-size:20px;
-}
-input[type="text"] {
-    padding: 10px;
-    margin: 10px 5px;
-    display: inherit;
-    width: 333px;
-}
-input[type="email"] {
-    padding: 10px;
-    margin: 10px 5px;
-    display: inherit;
-    width: 333px;
-}
-.contact-message textarea {
-    padding: 10px;
-    margin: 10px 5px;
-    display: inherit;
-    width: 333px;
-}
-.contact-button{
-	padding:10px 0px;
-}
-.contact-button button {
-    padding: 15px;
-    background-color: #9bcc5f;
-    border: none;
-}
-.contact-button button:hover {
-    background-color: #c8f0c1;
-	transition:1s;
-}
-section#contact-sec {
-    padding-top: 20px;
-    background-image: url(../images/background.jpg);
-    background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-.contact-content {
-    max-width: 350px;
-    margin: 0 auto;
-    overflow: hidden;
-}
-input[type="text"]:focus, 
-input[type="email"]:focus, 
-.contact-message textarea:focus {
-    border:2px solid #31001c;
-    background: #c8f0c1;
-}
+#about-sec{     margin:50px 0px; } .about-content-heading{     margin: 40px
+0px; } .about-content-heading-title h2{     text-align:center;     font-size:
+30px;     text-transform:uppercase;     padding:10px 0px; } .about-content-
+heading-description p{     font-size:20px; } input[type="text"] {     padding:
+10px;     margin: 10px 5px;     display: inherit;     width: 333px; }
+input[type="email"] {     padding: 10px;     margin: 10px 5px;     display:
+inherit;     width: 333px; } .contact-message textarea {     padding: 10px;
+margin: 10px 5px;     display: inherit;     width: 333px; } .contact-button{
+padding:10px 0px; } .contact-button button {     padding: 15px;
+background-color: #9bcc5f;     border: none; } .contact-button button:hover {
+background-color: #c8f0c1;     transition:1s; } section#contact-sec {
+padding-top: 20px;     background-image: url(../images/background.jpg);
+background-attachment: fixed;     background-size: cover;     background-
+repeat: no-repeat;     background-position: center; } .contact-content {
+max-width: 350px;     margin: 0 auto;     overflow: hidden; }
+input[type="text"]:focus,  input[type="email"]:focus,  .contact-message
+textarea:focus {     border:2px solid #31001c;     background: #c8f0c1; }
