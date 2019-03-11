@@ -99,9 +99,14 @@ body:after{
 	padding:20px 0px;
 	color:gray;
 	text-shadow: 5px 9px 10px grey;
+	min-height: 70px;
 }
 .content-content p{
-	padding:20px 5px;
+	padding:0px 5px;
+}
+.content-content img{
+	width: 100px;
+	height: auto;
 }
 #fourth-section{
 	padding:200px 0px;
@@ -200,9 +205,12 @@ section#contact-sec {
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 }
 .contact-content {
-    margin-left: 30%;
+    max-width: 350px;
+    margin: 0 auto;
+    overflow: hidden;
 }
 input[type="text"]:focus, 
 input[type="email"]:focus, 
