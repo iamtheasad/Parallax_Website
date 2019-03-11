@@ -151,7 +151,7 @@ body:after{
 }
 
 /*
- about section start
+ about page start
 */
 
 #about-sec{
@@ -199,6 +199,10 @@ input[type="email"] {
     background-color: #c8f0c1;
 	transition:1s;
 }
+
+/*
+	Contact Page Start
+*/
 section#contact-sec {
     padding-top: 20px;
     background-image: url(../images/background.jpg);
